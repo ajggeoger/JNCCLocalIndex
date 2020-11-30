@@ -5,21 +5,23 @@ channels:
 dependencies:
   - numpy
   - folium 
-#  - pandas
-#  - jupyterlab  
-#  - rasterio 
-#  - matplotlib 
-#  - pyproj 
-#  - shapely
-#  - fiona 
-#  - scikit-learn 
-#  - geopandas 
-#  - rtree 
-#  - geojson 
-#  - bokeh 
-#  - rise 
-#  - xarray 
-#  - geopy
-#  - pip
+  - pandas
+  - jupyterlab  
+  - rasterio 
+  - matplotlib 
+  - pyproj 
+  - shapely
+  - fiona 
+  - scikit-learn 
+  - geopandas
+  - panel 
+  - rtree 
+  - geojson 
+  - bokeh 
+  - rise 
+  - xarray
+  - geopy
+  - 
+  - pip
 #  - pip:                            # Packages installed from PyPI
 #    - requests==2.21.0

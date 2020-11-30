@@ -3,7 +3,7 @@ FROM continuumio/miniconda
 
 # Set the working directory to the current directory
 WORKDIR .
-COPY requirements.txt .
+COPY environment.yml ./notebooks
 
 # Install geo & datasci packages
 RUN conda env create -f environment.yml  
