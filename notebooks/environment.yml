@@ -14,6 +14,7 @@ dependencies:
   - fiona 
   - scikit-learn 
   - geopandas
+  - descartes
   - panel 
   - rtree 
   - geojson 
