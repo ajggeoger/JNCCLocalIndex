@@ -3,7 +3,7 @@ FROM continuumio/miniconda
 
 # Set the working directory to the current directory
 WORKDIR .
-COPY environment.yml ./notebooks
+COPY notebooks/environment.yml .
 
 # Install geo & datasci packages
 RUN conda env create -f environment.yml  
@@ -14,7 +14,7 @@ ENV PATH /opt/conda/envs/geogerenv/bin:$PATH
 
 # Jupyter listens port: 8888
 EXPOSE 8888
-# RUN mkdir -p /opt/app/data
+RUN mkdir -p /opt/app/data
 RUN mkdir -p /opt/app/python
 
 # Run Jupyter notebook as Docker main process
