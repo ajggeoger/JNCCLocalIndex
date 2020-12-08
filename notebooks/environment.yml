@@ -1,30 +1,28 @@
 name: geogerenv
 channels:
   - conda-forge
+  - pyviz
   - defaults
 dependencies:
-  - numpy
-  - folium 
-  - pandas
-  - jupyterlab  
-  - rasterio 
-  - matplotlib 
-  - pyproj 
-  - shapely
-  - fiona 
-  - scikit-learn 
-  - geopandas
-  - descartes
-  - panel 
-  - rtree 
-  - geojson 
-  - bokeh 
-  - rise 
-  - xarray
-  - geopy
-  - seaborn
-  - pysal
-  - dask
+  - python=3.7
+  - jupyterlab
   - pip
+  - nodejs
+  - panel
+  - datashader
+  - holoviews
+  - hvplot
+  - param
+  - geoviews
+  - geoviews-core
+  - pyviz_comms
+  - holoviz
+  - contrib_colormaps
+  - colorcet
+  - parambokeh
+  - paramnb
+  - pyct
+  - spatialpandas
+  - rasterio
 #  - pip:                            # Packages installed from PyPI
 #    - requests==2.21.0

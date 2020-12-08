@@ -1,0 +1,31 @@
+name: geogerenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy
+  - folium 
+  - pandas
+  - jupyterlab  
+  - rasterio 
+  - matplotlib 
+  - pyproj 
+  - shapely
+  - fiona 
+  - scikit-learn 
+  - geopandas
+  - descartes
+  - panel 
+  - rtree 
+  - geojson 
+  - bokeh 
+  - rise 
+  - xarray
+  - geopy
+  - seaborn
+  - pysal
+  - dask
+  - pip
+  - nodejs
+#  - pip:                            # Packages installed from PyPI
+#    - requests==2.21.0
