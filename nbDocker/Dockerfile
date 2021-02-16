@@ -7,7 +7,7 @@ WORKDIR .
 
 # Install geo & datasci packages
 # RUN conda env create -f environment.yml  
-RUN conda create -n geogerenv -c conda-forge geoviews-core geopandas hvplot
+RUN conda create -n geogerenv -c conda-forge geoviews-core geopandas hvplot psutil
 
 # Install hvplot requirements
 # RUN jupyter labextension install @pyviz/jupyterlab_pyviz
