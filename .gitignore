@@ -134,4 +134,8 @@ dmypy.json
 *.shp
 *.shx
 *.prj
+*.qpj
+*.cpg
 darkpeak_LEID.txt
+*.zip
+*.csv

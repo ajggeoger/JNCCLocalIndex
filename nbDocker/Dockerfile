@@ -1,5 +1,5 @@
 # Set our base image
-FROM continuumio/miniconda
+FROM continuumio/miniconda3
 
 # Set the working directory to the current directory
 WORKDIR .
