@@ -1,0 +1,15 @@
+--- CPU and RAM dials ---
+mach_metrics = pn.Row(cpu_dial, ram_dial) 
+
+--- Dataset selection widget ---
+slct_data = pn.widgets.Select(name='Choose dataset', options=dataset_opts)
+
+--- Spatial filter selection filter ---
+slct_fltr = pn.widgets.Select(name='Choose filter', options=datafilter_opts, value=datafilter_opts[1])
+
+--- Variables ---
+dataset_opts	# possible datasets
+data_locn 	# dictionary of path to data
+datafilter_opts	# potential filter areas e.g. SSSI
+data_fltr 	# dictionary of path to spatial filter data
+fltr_data	# spatial filter dataset
