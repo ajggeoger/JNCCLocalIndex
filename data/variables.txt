@@ -13,3 +13,7 @@ data_locn 	# dictionary of path to data
 datafilter_opts	# potential filter areas e.g. SSSI
 data_fltr 	# dictionary of path to spatial filter data
 fltr_data	# spatial filter dataset
+orig_data # copy of shp_data, both of which are cleaned gdf_in
+gdf_in # polygon input
+df_in # statistics input
+shp_data # working polygon dataslct_fltrslct_fltrslct_fltrslct_fltrslct_fltrslct_fltrslct_fltr

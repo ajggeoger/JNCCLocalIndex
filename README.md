@@ -21,7 +21,7 @@ Follow this process to provide an analysis environment:
 #### Docker set up (Jupyter Notebooks)
 Follow this process to provide an analysis environment using an updated Panel installation:
 * Clone git repository using: `git clone https://github.com/ajggeoger/JNCCLocalIndex`
-* Move into the repository
+* Move into the repository and then the folder nbDocker
 * Assuming Docker is installed, run: `docker image build -t panelupdate .`
 * This will take some time and create a ‘large’ docker image called `panelupdate` . _Note:_ This DockerFile does not use an environment.yml file 
 * Use `docker images` to check it exists, and its size
